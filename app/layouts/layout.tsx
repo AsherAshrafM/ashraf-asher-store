@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="space-y-9">
       <div className="flex items-center justify-between">
         <CategoryNav categories={categories} />
-        <ClickCounter /> <div className="text-white">animal</div>
+        <ClickCounter /> <div className="text-black">animal</div>
       </div>
 
       <div>{children}</div>
